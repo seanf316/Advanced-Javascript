@@ -14,8 +14,8 @@ let sum2 = sumAll(1, 2, 3, 4, 5, 6)
 console.log(sum2)
 
 // Function using ...rest
-const sumRest = (a, b, c, ...rest) => {
-    let sum = a + b + c;
+const sumRest = (a, ...rest) => {
+    let sum = a;
     for (let i of rest) {
         sum += i
     }
