@@ -90,7 +90,7 @@ const candidates1 = students.filter(hasStrongSkills);
 
 // Filter Challenge
 
-let students = [
+let students1 = [
     {
         name: 'John',
         subjects: ['maths', 'english', 'cad'],
@@ -117,5 +117,5 @@ let students = [
     }
 ];
 
-const topMaths = students.filter(student => student.results.maths >= 90)
+const topMaths = students1.filter(student => student.results.maths >= 90)
 console.log(topMaths)
